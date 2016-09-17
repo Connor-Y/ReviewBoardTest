@@ -1,0 +1,24 @@
+File 1
+Attempting to verify error at #4404
+
+Error:
+"Start Over" in Update Diff popup creates a new review instead
+
+
+Steps to Recreate:
+
+On an existing review, select Update -> Update Diff
+Select a diff file
+Click 'Start Over'
+Select the diff file again
+Enter the base directory and press OK
+
+Expected Behaviour:
+Existing review request is updated with new diff and put in draft status
+
+Actual:
+New review request is created using uploaded diff, existing review request is not updated. 
+
+
+
+
