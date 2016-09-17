@@ -1,0 +1,8 @@
+diff --git a/error#4404 b/error#4404
+new file mode 100644
+index 0000000000000000000000000000000000000000..c7da8c674040fb21bae4d25656f69a349392a378
+--- /dev/null
++++ b/error#4404
+@@ -0,0 +1 @@
++Fixing error #4404
+
